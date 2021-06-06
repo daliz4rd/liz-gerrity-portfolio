@@ -1,0 +1,66 @@
+img.logo {
+  max-height: 80px;
+}
+
+header#main-header a.nav-link {
+  text-decoration: none;
+  display: block;
+  line-height: 2;
+  padding-bottom: 4px;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 3;
+}
+
+footer.footer {
+  background-color: #110934;
+}
+
+p.project-subheader {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+p.client {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.video-frame {
+  position: relative;
+  height: 0;
+}
+
+.content-block,
+.list-block {
+  margin-bottom: 24px;
+}
+
+h3.stripe:before {
+  content: '';
+  margin-bottom: 24px;
+  width: 40px;
+  height: 8px;
+  background: #95ff9e;
+  display: block;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h6.dropdown-header {
+  color: #95ff9e;
+}
+
+.steps {
+  color: #ffffff;
+}
+
