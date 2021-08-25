@@ -1,12 +1,14 @@
 img.logo {
   max-height: 80px;
+  display: block;
 }
-
+a.top{
+  padding-top: 20px;
+}
 header#main-header a.nav-link {
   text-decoration: none;
   display: block;
-  line-height: 2;
-  padding-bottom: 4px;
+  line-height: 1.1;
   position: relative;
   cursor: pointer;
   font-weight: bold;
@@ -58,6 +60,23 @@ h6 {
 
 h6.dropdown-header {
   color: #95ff9e;
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: .7em;
+  margin-block-end: .7em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+hr.dropdown-divider{
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .steps {
