@@ -13,6 +13,7 @@ header#main-header a.nav-link {
   cursor: pointer;
   font-weight: bold;
   z-index: 3;
+  padding:4px;
 }
 
 footer.footer {
@@ -51,8 +52,8 @@ h3.stripe:before {
 h6 {
   display: block;
   font-size: 0.67em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: .6em;
+  margin-block-end: .6em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
@@ -62,8 +63,8 @@ h6.dropdown-header {
   color: #95ff9e;
   display: block;
   font-size: 0.67em;
-  margin-block-start: 0em;
-  margin-block-end: .7em;
+  margin-block-start: .6em;
+  margin-block-end: .6em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
@@ -72,8 +73,8 @@ h6.dropdown-header {
 hr.dropdown-divider{
   display: block;
   font-size: 0.67em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: .6em;
+  margin-block-end: .6em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
@@ -83,3 +84,14 @@ hr.dropdown-divider{
   color: #ffffff;
 }
 
+nav.main-nav ul li ul.dropdown {
+    position: absolute;
+    max-height: 0;
+    opacity: 0;
+    min-width: 250px;
+    margin-top: -8px;
+    padding-top: 8px;
+    overflow: hidden;
+    transform: translateY(-30px);
+    transition: transform .3s, opacity .3s, max-height 0s .3s;
+}
