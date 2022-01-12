@@ -84,6 +84,11 @@ hr.dropdown-divider{
   color: #ffffff;
 }
 
+.step{
+  margin-top:24px;
+  margin-bottom:24px;
+}
+
 nav.main-nav ul li ul.dropdown {
     position: absolute;
     max-height: 0;
