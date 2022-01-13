@@ -100,3 +100,7 @@ nav.main-nav ul li ul.dropdown {
     transform: translateY(-30px);
     transition: transform .3s, opacity .3s, max-height 0s .3s;
 }
+
+.step-img{
+  margin-top:5%;
+}
