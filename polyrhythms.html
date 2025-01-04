@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
-  <link rel="stylesheet" type="text/css" href="polyrhythms/css/base.css">
+  <!-- <link rel="stylesheet" type="text/css" href="polyrhythms/css/base.css"> -->
   <link rel="stylesheet" type="text/css" href="css/core.css">
   <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
   <link rel="stylesheet" type="text/css" href="css/elements.css">
@@ -65,14 +65,14 @@
     <div id="inner">
       <section class="nmb behind-header">
         <div class="hero">
-          <div style="background-image: url('');" class="bg faded"></div>
           <div class="vcenter">
             <div class="container mb-xl">
               <div class="grid">
                 <div class="col-1">2025</div>
                 <div class="col-7">
-                  <div class="label">Project</div>
+                  <div class="label">Javascript</div>
                   <h1 class="animatedText">Polyrhythms</h1>
+                  <h2 class="animatedText">Click for sound.</h2>
                 </div>
               </div>
             </div>
@@ -82,56 +82,10 @@
       <section class="mb-xl">
         <div class="container">
           <div class="grid content">
-            <div class="col-6 col-offset-1">
-              <div class="feature mb-xl">
-                <img src="">
+            <div class = "col-8" id="canvas" class="polyrhythmsCanvas">
+              <div style="display: flex; justify-content: center; align-items: center;">
+                <canvas id="myCanvas" style="background-color:black"></canvas>
               </div>
-            </div>
-          </div>
-          <div class="grid content overview">
-            <div class="col-offset-1 col-3">
-              <div class="project-data">
-                <div class="title">The Project</div>
-                <p class="project-subheader">Catchy tagline that describes what I did and who it was for.</p>
-              </div>
-            </div>
-            <div class="col-offset-1 col-1">
-              <div class="project-data">
-                <div class="title">Client</div>
-                <div class="desc">Client Name</div>
-              </div>
-              <div class="project-data">
-                <div class="title">Type</div>
-                <div class="desc">Project Type</div>
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="project-data">
-                <div class="title">Year</div>
-                <div class="desc">2020</div>
-              </div>
-              <div class="project-data">
-                <div class="title">Business Type</div>
-                <div class="desc">Business Type</div>
-              </div>
-            </div>
-            <div class="col-offset-1 col-6">
-              <div class="project-data">
-                <div class="title">About the Client</div>
-                <div class="body">
-                  <p class="client">Here is a space for a couple of sentences about the client, what they do, where they
-                    are located, or any other relevant information. Two sentences should be good.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="mb-xl">
-        <div class="container">
-          <div class="grid content">
-            <div id="canvas" class="polyrhythmsCanvas">
-              <canvas id="myCanvas" style="background-color:black"></canvas>
               <script src="polyrhythms/sound.js"></script>
               <script src="polyrhythms/track.js"></script>
               <script src="polyrhythms/ball.js"></script>
@@ -189,70 +143,76 @@
           </div>
         </div>
       </section>
+      <section class="mb-xl">
+        <div class="container">
+          <div class="grid content overview">
+            <div class="col-offset-1 col-3">
+              <div class="project-data">
+                <div class="title">Description</div>
+                <p class="project-subheader">Polyrhythms is an interactive audio-visual experience created using JavaScript.</p>
+              </div>
+            </div>
+            <div class="col-offset-1 col-1">
+              <div class="project-data">
+                <div class="title">Instructor</div>
+                <div class="desc">@Radu</div>
+              </div>
+              <div class="project-data">
+                <div class="title">Type</div>
+                <div class="desc">Project Type</div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="project-data">
+                <div class="title">Year</div>
+                <div class="desc">2024</div>
+              </div>
+              <div class="project-data">
+                <div class="title">Languages</div>
+                <div class="desc">HTML, CSS, Javascript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="mb-xl performance">
         <div class="container">
           <ul class="accordion">
             <li class="active">
               <div class="head">
-                <div class="title">The Challenge</div>
+                <div class="title">Description</div>
               </div>
               <div class="body">
-                <p class="stats">Lorem ipsum dolor sit amet. Ut accusamus sunt et molestiae distinctio sed unde nulla ea
-                  nihil voluptatem quo fugit debitis. Sed dolor eius ad laudantium modi quo nihil iste cum placeat
-                  deleniti ut rerum totam sit optio eligendi. Ut facilis omnis et eveniet commodi non possimus
-                  temporibus eos molestiae vitae. Et magnam consectetur et molestiae dicta cum tempora dolorem et
-                  architecto consequuntur vel voluptatibus veniam maiores totam aut temporibus quam. </p>
+                <p class="stats"> Polyrhythms visualises and sonifies up to 20 simultaneous polyrhythms. This project generates a series of concentric circles, each representing a unique rhythmic pattern. As the circles rotate, they emit sounds at specific intervals, creating a complex and evolving soundscape. Mathematical calculations determine the speed and position of each circle, resulting in intricate visual and auditory patterns.</p>
               </div>
             </li>
             <li>
               <div class="head">
-                <div class="title">Services Provided</div>
+                <div class="title">Concepts</div>
               </div>
               <div class="body">
                 <div class="grid">
-                  <div class="col-2"><span class="label">Brand Identity</span>
+                  <div class="col-2"><span class="label">Languages</span>
                     <ul class="striped inside">
-                      <li>Strategy & Messaging</li>
-                      <li>Brand Personality</li>
-                      <li>Visual Identity</li>
+                      <li>Javascript</li>
+                      <li>CSS</li>
+                      <li>HTML</li>
 
                     </ul>
                   </div>
-                  <div class="col-2"><span class="label">Logo Design</span>
+                  <div class="col-2"><span class="label">Programming Concepts</span>
                     <ul class="striped inside">
-                      <li>Illustration</li>
-                      <li>Concept Sketches</li>
-                      <li>Vectorization</li>
+                      <li>Code maintainability</li>
+                      <li>Reduction of complexity</li>
+                      <li>Problem solving with built-in Javascript functions</li>
 
                     </ul>
                   </div>
-                  <div class="col-2"><span class="label">Deliverables</span>
+                  <div class="col-2"><span class="label">Mathematical Concepts</span>
                     <ul class="striped inside">
-                      <li>Logo Design</li>
-                      <li>Branding Guidelines</li>
-                      <li>Color Pallete & Typography</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="head">
-                <div class="title">The Results</div>
-              </div>
-              <div class="body">
-                <div class="grid">
-                  <div class="col-2"><span class="label">Brand Adoption</span>
-                    <ul class="striped inside">
-                      <li>Whole Foods</li>
-                      <li>Alfalfa's</li>
-                    </ul>
-                  </div>
-                  <div class="col-2"><span class="label">UI/UX Improvements</span>
-                    <ul class="striped inside">
-                      <li>Illustration</li>
-                      <li>Concept Sketches</li>
-                      <li>Vectorization</li>
+                      <li>Circular motion</li>
+                      <li>Phase relationships</li>
+                      <li>Frequency</li>
                     </ul>
                   </div>
                 </div>
